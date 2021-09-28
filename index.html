@@ -9,36 +9,54 @@
 </head>
 
 <style>
-h1 {
-    text-align: center;
-    font-size: 5rem;
-    color:crimson;
-    font-weight: 500;
-    background-color: gainsboro;
-}
+    h1 {
+        text-align: center;
+        font-size: 5rem;
+        color: crimson;
+        font-weight: 500;
+        background-color: gainsboro;
+    }
 
-p {
-    text-align: center;
-    font-size: 1.2rem;
-    color:navy;
-    font-style: italic;
-}
+    p {
+        text-align: center;
+        font-size: 1.2rem;
+        color: navy;
+        font-style: italic;
+    }
 
-button {
-    border-radius: 10%;
-    border-width: 5px;
-    font-size: 3rem;
-}
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
 
-}
+    }
 
+    button {
+        border-radius: 10%;
+        border-width: 5px;
+        font-size: 2rem;
+        align-content: center;
+        height: 20vh;
+        
+    }
+
+    #miyagi {
+        align-items: flex-end; 
+        width: 60vw;
+        
+    }
+    }
 </style>
 
 <body>
 
     <div>
         <h1>Mr. Miyagi Quotes</h1>
-        <button id="quotation" >New Quote</button>        
+        <div class="container">
+            <button id="quotation">New Quote</button>
+            <img id="miyagi" src="mr-miyagi.jpg" alt="Mr. Miyagi focusing">
+        </div>
         <p></p>
     </div>
 
