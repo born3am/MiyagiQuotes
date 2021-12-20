@@ -110,6 +110,5 @@ function getRandom() {
 
   quotation.addEventListener('click', ()=> { 
     p.innerText = arrayOfQuotations[getRandom()];
-    // const renderedText = htmlElement.innerText; = arrayQuotes[getRandom]
   });
   
